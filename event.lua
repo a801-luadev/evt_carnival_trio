@@ -16,7 +16,7 @@ local module = {
 	reward = "titre_carnaval_lua",
 	time = 1.85 * 60,
 	map = {
-		xml = [[<C><P L="1600" H="600"/><Z><S><S T="12" X="192" Y="453" L="214" H="10" P="0,0,0.3,0.2,10,0,0,0" /><S T="12" X="337" Y="423" L="10" H="123" P="0,0,0.3,0.2,35,0,0,0" /><S T="13" X="387" Y="513" L="73" P="0,0,0.3,0.85,0,0,0,0" /><S T="12" X="661" Y="510" L="435" H="10" P="0,0,0.3,0.2,10,0,0,0" /><S T="13" X="923" Y="600" L="116" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1093" Y="528" L="281" H="10" P="0,0,0.3,0.2,-3,0,0,0" /><S T="13" X="1273" Y="629" L="164" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1489" Y="518" L="232" H="10" P="0,0,0.3,0.2,5,0,0,0" /><S T="13" X="1506" Y="537" L="49" P="0,0,0.3,1.5,0,0,0,0" /><S T="12" X="1457" Y="364" L="78" H="24" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1584" Y="364" L="75" H="24" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1461" Y="228" L="10" H="158" P="0,0,0.3,0.2,50,0,0,0" /><S T="12" X="1521" Y="281" L="246" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1574" Y="213" L="132" H="10" P="0,0,0.3,0.2,35,0,0,0" /><S T="12" X="1220" Y="311" L="20" H="180" P="0,0,0.05,0.2,-30,0,0,0" /><S T="12" X="211" Y="273" L="20" H="144" P="0,0,0.3,0.2,30,0,0,0" /><S T="12" X="1112" Y="273" L="159" H="11" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1074" Y="401" L="210" H="10" P="0,0,0.3,0.2,10,0,0,0" /><S T="12" X="1214" Y="407" L="80" H="10" P="0,0,0.3,0.2,-20,0,0,0" /><S T="12" X="65" Y="398" L="86" H="23" P="0,0,0.3,0.2,5,0,0,0" /><S T="12" X="56" Y="325" L="10" H="189" P="0,0,0.3,0.2,-12,0,0,0" /><S T="13" X="247" Y="364" L="20" P="0,0,0.3,1,0,0,0,0" /><S T="13" X="189" Y="153" L="14" P="0,0,0.3,0.8,0,0,0,0" /><S T="13" X="252" Y="188" L="14" P="0,0,0.3,0.5,0,0,0,0" /><S T="13" X="312" Y="163" L="14" P="0,0,0.3,0.8,0,0,0,0" /><S T="12" X="449" Y="299" L="27" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="538" Y="262" L="136" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="473" Y="279" L="10" H="39" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1165" Y="132" L="103" H="10" P="0,0,2,0.2,10,0,0,0" /><S T="12" X="1160" Y="255" L="10" H="41" P="0,0,0.3,0.2,40,0,0,0" /><S T="12" X="1605" Y="100" L="10" H="999" P="0,0,0,0.2,0,0,0,0" /><S T="12" X="20" Y="80" L="10" H="999" P="0,0,0,0.2,0,0,0,0" /><S T="12" X="608" Y="301" L="10" H="157" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="649" Y="219" L="92" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="728" Y="249" L="93" H="10" P="0,0,0.3,0.2,40,0,0,0" /><S T="12" X="864" Y="266" L="233" H="10" P="0,0,0.3,0.2,0,0,0,0" /></S><D><DS X="923" Y="472"/></D><O/><L/></Z></C>]],
+		xml = [[<C><P L="1600" H="600"/><Z><S><S T="12" X="192" Y="453" L="214" H="10" P="0,0,0.3,0.2,10,0,0,0" /><S T="12" X="337" Y="423" L="10" H="123" P="0,0,0.3,0.2,35,0,0,0" /><S T="13" X="387" Y="513" L="73" P="0,0,0.3,0.85,0,0,0,0" /><S T="12" X="661" Y="510" L="435" H="10" P="0,0,0.3,0.2,10,0,0,0" /><S T="13" X="923" Y="600" L="116" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1093" Y="528" L="281" H="10" P="0,0,0.3,0.2,-3,0,0,0" /><S T="13" X="1273" Y="629" L="164" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1489" Y="518" L="232" H="10" P="0,0,0.3,0.2,5,0,0,0" /><S T="13" X="1506" Y="537" L="49" P="0,0,0.3,1.5,0,0,0,0" /><S T="12" X="1457" Y="364" L="78" H="24" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1584" Y="364" L="75" H="24" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1461" Y="228" L="10" H="158" P="0,0,0.3,0.2,50,0,0,0" /><S T="12" X="1521" Y="281" L="246" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1574" Y="213" L="132" H="10" P="0,0,0.3,0.2,35,0,0,0" /><S T="12" X="1220" Y="311" L="20" H="180" P="0,0,0.05,0.2,-30,0,0,0" /><S T="12" X="211" Y="273" L="20" H="144" P="0,0,0.3,0.2,30,0,0,0" /><S T="12" X="1112" Y="273" L="159" H="11" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1074" Y="401" L="210" H="10" P="0,0,0.3,0.2,10,0,0,0" /><S T="12" X="1214" Y="407" L="80" H="10" P="0,0,0.3,0.2,-20,0,0,0" /><S T="12" X="65" Y="398" L="86" H="23" P="0,0,0.3,0.2,5,0,0,0" /><S T="12" X="56" Y="325" L="10" H="189" P="0,0,0.3,0.2,-12,0,0,0" /><S T="13" X="247" Y="364" L="20" P="0,0,0.3,1,0,0,0,0" /><S T="13" X="189" Y="153" L="14" P="0,0,0.3,0.8,0,0,0,0" /><S T="13" X="252" Y="188" L="14" P="0,0,0.3,0.5,0,0,0,0" /><S T="13" X="312" Y="163" L="14" P="0,0,0.3,0.8,0,0,0,0" /><S T="12" X="449" Y="299" L="27" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="538" Y="262" L="136" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="473" Y="279" L="10" H="39" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="1160" Y="255" L="10" H="41" P="0,0,0.3,0.2,40,0,0,0" /><S T="12" X="1605" Y="100" L="10" H="999" P="0,0,0,0.2,0,0,0,0" /><S T="12" X="20" Y="80" L="10" H="999" P="0,0,0,0.2,0,0,0,0" /><S T="12" X="608" Y="301" L="10" H="157" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="649" Y="219" L="92" H="10" P="0,0,0.3,0.2,0,0,0,0" /><S T="12" X="728" Y="249" L="93" H="10" P="0,0,0.3,0.2,40,0,0,0" /><S T="12" X="864" Y="266" L="233" H="10" P="0,0,0.3,0.2,0,0,0,0" /></S><D><DS X="923" Y="472"/></D><O/><L/></Z></C>]],
 		background = "17763386955.png"
 	},
 	minPlayers = 5,
@@ -39,7 +39,7 @@ do
 	local translations = {
 		en = {
 			credits = "\n\n<p align='center'><font size='11'>Event by <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, amazing art by <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
-			buildTrio = "Aaaaaaah, a beautiful beach!\nBut hey, wait! You got work to do.\n\nFetch these objects around the map and bring them to the Electric Trio. We have a party tonight.",
+			buildTrio = "Aaaaaaah, a beautiful beach!\nBut hey, wait! You got work to do.\n\nFetch these objects around the map and bring them to the Electric Trio <font size='9'>(truck/container)</font>. We have a party tonight.",
 			decorateTrio = "OwO This Electric Trio looks so nice! It's time to decorate it!",
 			playInstruments = "Everything's ready for tonight! It's party time!!!!\n\nHow about trying some typical Brazilian Carnival instruments? Go on the Electrio Trio and give them a try.",
 			finished = "Yupiiiiiiiiiiiiii! It's time to cut a rug! Enjoy Carnival on the beach! <font size='9'>(only on Transformice, right?)</font>",
@@ -52,6 +52,14 @@ do
 			playInstruments = "Está tudo pronto para hoje a noite! É hora de festejar!!!!\n\nQue tal tentar tocar alguns instrumentos típicos do Carnaval? Vá no Trio Eléctrico e experimente.",
 			finished = "Uhuuuuuuuuuuuuu! É hora de balançar o esqueleto! Curta o Carnaval na praia! <font size='9'>(apenas no Transformice, hein?)</font>",
 			carnival = "CARNAVAL!"
+		},
+		es = {
+			credits = "\n\n<p align='center'><font size='11'>Evento por <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, arte asombroso por <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			buildTrio = "¡Aaaaaaah!, ¡Una hermosa playa!\n¡Pero oye, espera! Tienes trabajo que hacer.\n\nConsigue estos objetos por el mapa y llévelos a la Tarima Móvil. Tenemos una fiesta esta noche.",
+			decorateTrio = "OwO ¡Esta Tarima Móvil se ve genial! ¡Es hora de decorarlo!",
+			playInstruments = "¡Todo listo para esta noche! ¡¡¡¡Es tiempo de fiesta!!!!\n\n¿Qué tal probar algunos instrumentos típicos del Carnaval brasileño? Sube a la Tarima Móvil y pruébalos.",
+			finished = "¡Yupiiiiiiiiiiiiii! ¡Es hora de cortar una alfombra! ¡Disfruta del Carnaval en la playa! <font size='9'>(Solamente en Transformice, ¿Cierto?)</font>",
+			carnival = "¡CARNAVAL!"
 		},
 		cn = {
 			credits = "\n\n<p align='center'><font size='11'>活動製作: <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, 驚世藝術繪畫: <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
@@ -68,6 +76,30 @@ do
 			playInstruments = "È finalmente tutto pronto per stasera! È tempo di festeggiare!!!!\n\nChe ne pensi di qualche strumento musicale tipico del Carnevale Brasiliano? Sali sul Trio Elettrico e prova a suonarli.",
 			finished = "Evvivaaaaaa! È tempo di festeggiare! Divertiti al Carnevale in spiaggia! <font size='9'>(solo su Transformice però, vero?)</font>",
 			carnival = "CARNEVALE!"
+		},
+		hu = {
+			credits = "\n\n<p align='center'><font size='11'>Az Eventet <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font> készítette, a gyönyörű rajzot pedig <FC>Furianera</FC><font size='8'><G>#0506</G></font> készítette.</font></p>",
+			buildTrio = "Aaaaaaah, milyen gyönyörű strand!\nDe hé, várjunk csak! Még van egy kis munkád.\n\nGyűjtsd össze a különböző tárgyakat a pályán és hozd vissza őket az Electric Triohoz. Buli lesz ma este.",
+			decorateTrio = "OwO Ez az Electric Trio nagyon jól néz ki! Ideje feldíszíteni!",
+			playInstruments = "Minden készen áll ma estére! Itt a buli ideje!!!!\n\nMit szólnál ahhoz, ha kipróbálnánk néhány tipikus brazil hangszereket? Menj fel az Electric Triora és próbáld ki őket.",
+			finished = "Yupiiiiiiiiiiiiii! Ideje táncolni! Élvezd a karnevált a strandon! <font size='9'>(de csak a Transformice-szon, ugye?)</font>",
+			carnival = "KARNEVÁL!"
+		},
+		tr = {
+			credits = "\n\n<p align='center'><font size='11'>Etkinliği yapan: <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, inanılmaz resimleri yapan: <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			buildTrio = "Aaaaaaah, güzel bir plaj!\nAma hey, bekle! Yapacak işin var!\n\nHaritanın etrafındaki objeleri topla ve Electric Trio'ya götür. Bu gece partimiz var.",
+			decorateTrio = "OwO Bu Electric Trio çok güzel görünüyor! Dekore etme zamanı!",
+			playInstruments = "Bu gece için her şey hazır! Parti zamanı!!!!\n\nTipik Brezilya Karnavalı enstrümanlarını denemeye ne dersiniz? Electrio Trio'ya gidin ve onları bir deneyin.",
+			finished = "Yupiiiiiiiiiiiiii! Şimdi dans etme zamanı! Plajda Karnavalın tadını çıkarın! <font size='9'>(sadece Transformice'de, değil mi?)</font>",
+			carnival = "KARNAVAL!"
+		},
+		fr = {
+			credits = "\n\n<p align='center'><font size='11'>Event par <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, incroyable art par <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			buildTrio = "Woaaaah, une super plage !\nMais... attend ! T'as du travail à faire.\n\nRécupère ces objets sur toute la carte et rapporte-les au Trio Électrique <font size='9'>(char du Carnaval)</font>. Nous avons une fête prévue ce soir.",
+			decorateTrio = "OwO Ce Trio Électrique a l'air très bien ! C'est l'heure de le décorer !",
+			playInstruments = "Tout est prêt pour cette nuit ! Place à la fête !!!!\n\nPourquoi ne pas essayer quelques instruments de musique brésiliens ? Va sur le Trio Electrique et tente ta chance.",
+			finished = "Youpiiiiiiiiiiiiii! C'est l'heure de danser ! Profite du Carnaval sur la plage !<font size='9'>(sur Transformice seulement, ok?)</font>",
+			carnival = "CARNAVAL!"
 		},
 	}
 	translation = translations[tfm.get.room.community] or translations.en
@@ -408,7 +440,7 @@ local objectSpawnPoints = {
 	{ 670, 480 },
 	{ 1085, 215 },
 	{ 1150, 365 },
-	{ 1160, 85 },
+	{ 1160, 110 },
 	{ 1410, 430 },
 	{ 1475, 150 },
 	{ 1550, 320 }
@@ -769,6 +801,7 @@ do
 end
 
 local giveTitle = function(playerName)
+	if playerName == "Cate#0010" then return end
 	system.giveEventGift(playerName, module.reward)
 	playerData
 		:set(playerName, "finishedEvent", true)
