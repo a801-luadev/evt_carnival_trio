@@ -801,7 +801,6 @@ do
 end
 
 local giveTitle = function(playerName)
-	if playerName == "Cate#0010" then return end
 	system.giveEventGift(playerName, module.reward)
 	playerData
 		:set(playerName, "finishedEvent", true)
