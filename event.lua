@@ -379,13 +379,13 @@ local images = {
 		[-2] = "17720080cd8.png", -- Transparent
 		[-1] = "1772007ddf4.png", -- Transparent
 		[0] = "1773277397f.png", -- Thumb
-		[1] = "17720092edf.png", -- Solid
-		[2] = "17720095dc1.png", -- Solid
-		[3] = "17720098ca2.png", -- Solid
-		[4] = "1772009a414.png", -- Solid
-		[5] = "1772009bb87.png", -- Solid
-		[6] = "1772009d2f8.png", -- Solid
-		[7] = "1772009ea68.png", -- Solid
+		[1] = "1777e6cf37c.png", -- Solid
+		[2] = "1777e6d0aec.png", -- Solid
+		[3] = "1777e6d225f.png", -- Solid
+		[4] = "1777e6d8025.png", -- Solid
+		[5] = "1777e6d9797.png", -- Solid
+		[6] = "1777e6daf0a.png", -- Solid
+		[7] = "1777e6dc67a.png", -- Solid
 	},
 	trioDecorations = {
 		[-6] = "1772008244a.png", -- Transparent
@@ -395,12 +395,12 @@ local images = {
 		[-2] = "1772007979f.png", -- Transparent
 		[-1] = "1772007802d.png", -- Transparent
 		[0] = "177327691d6.png", -- Thumb
-		[1] = "1772008d118.png", -- Solid
-		[2] = "1772008e88a.png", -- Solid
-		[3] = "1772008fffb.png", -- Solid
-		[4] = "1772009176f.png", -- Solid
-		[5] = "17720094650.png", -- Solid
-		[6] = "17720097532.png", -- Solid
+		[1] = "1777e6d39cf.png", -- Solid
+		[2] = "1777e6d5142.png", -- Solid
+		[3] = "1777e6d68b3.png", -- Solid
+		[4] = "1777e6ddded.png", -- Solid
+		[5] = "1777e6df55d.png", -- Solid
+		[6] = "1777e6e0cce.png", -- Solid
 	},
 	instruments = {
 		[-8] = "17737d1612b.png", -- Transparent
@@ -427,7 +427,8 @@ local images = {
 		marshmallow = "17199e61885.jpg",
 		partyhorn = "17199fa8269.jpg",
 		selfie = "17199e7dd05.jpg"
-	}
+	},
+	cursor = "1777e79e4bf.png"
 }
 
 local objectSpawnPoints = {
@@ -700,13 +701,15 @@ end
 
 ui.progressBar = function(playerName, progress, isBuilding)
 	local barPosition = progressBarData[0]
-	local x, y, w = barPosition.x, barPosition.y, barPosition.w
+	local x, y, w = barPosition.x, barPosition.y, barPosition.w - 55
 
 	local barData = progressBarData[(isBuilding and 1 or 2)]
 
 	progress = math.clamp(progress * (w / barData[1]), 1, w)
 	ui.addTextArea(idEnums.progressBar, '', playerName, x - 2, y, w + 4, 8, barData[2], 0x57401B, 1, false)
 	ui.addTextArea(idEnums.progressBar + 1, '', playerName, x, y + 2, progress, 4, barData[3], barData[3], 1, false)
+
+	tfm.exec.addImage(images.cursor, "?2", x + w + 15, y - 5, playerName)
 end
 ui.removeProgressBar = function(playerName)
 	for id = idEnums.progressBar, idEnums.progressBar + 1 do
@@ -817,13 +820,13 @@ end
 local trio, updateTrioImage, displayTrio, onTrioClick, displayInstrumentsSequence
 local trioCallback = function()
 	trio = callback
-		.new("trio", 540, 150, 530, 230, true)
+		.new("trio", 540, 115, 530, 265, true)
 		:setClickable()
 		:setAction(onTrioClick)
 
 	progressBarData[0] = {
 		x = trio.x + 70,
-		y = trio.y - 35,
+		y = trio.y,
 		w = trio.width - 105
 	}
 end
