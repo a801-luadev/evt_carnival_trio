@@ -10,7 +10,7 @@ local module = {
 	name = "ca21",
 	formalName = "Carnaval Trio",
 	team = {
-		developer = "Bolodefchoco#0000",
+		developer = "Bolodefchoco#0015",
 		artist = "Furianera#0506"
 	},
 	reward = "titre_carnaval_lua",
@@ -38,67 +38,67 @@ local translation
 do
 	local translations = {
 		en = {
-			credits = "\n\n<p align='center'><font size='11'>Event by <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, amazing art by <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
-			buildTrio = "Aaaaaaah, a beautiful beach!\nBut hey, wait! You got work to do.\n\nFetch these objects around the map and bring them to the Electric Trio <font size='9'>(truck/container)</font>. We have a party tonight.",
+			credits = "\n\n<p align='center'><font size='-1'>Event by <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, amazing art by <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
+			buildTrio = "Aaaaaaah, a beautiful beach!\nBut hey, wait! You got work to do.\n\nFetch these objects around the map and bring them to the Electric Trio <font size='-2'>(truck/container)</font>. We have a party tonight.",
 			decorateTrio = "OwO This Electric Trio looks so nice! It's time to decorate it!",
 			playInstruments = "Everything's ready for tonight! It's party time!!!!\n\nHow about trying some typical Brazilian Carnival instruments? Go on the Electrio Trio and give them a try.",
-			finished = "Yupiiiiiiiiiiiiii! It's time to cut a rug! Enjoy Carnival on the beach! <font size='9'>(only on Transformice, right?)</font>",
+			finished = "Yupiiiiiiiiiiiiii! It's time to cut a rug! Enjoy Carnival on the beach! <font size='-2'>(only on Transformice, right?)</font>",
 			carnival = "CARNIVAL!"
 		},
 		br = {
-			credits = "\n\n<p align='center'><font size='11'>Evento por <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, arte incrível por <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			credits = "\n\n<p align='center'><font size='-1'>Evento por <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, arte incrível por <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
 			buildTrio = "Aaaaaaah, uma praia linda!\nMas ei, psiu, espera aí! Você tem trabalho a fazer.\n\nPegue esses objetos no mapa e leve-os até o Trio Elétrico. Teremos uma festona hoje a noite.",
 			decorateTrio = "OwO Esse Trio Elétrico está tão legal! Agora é hora de decorá-lo!",
 			playInstruments = "Está tudo pronto para hoje a noite! É hora de festejar!!!!\n\nQue tal tentar tocar alguns instrumentos típicos do Carnaval? Vá no Trio Eléctrico e experimente.",
-			finished = "Uhuuuuuuuuuuuuu! É hora de balançar o esqueleto! Curta o Carnaval na praia! <font size='9'>(apenas no Transformice, hein?)</font>",
+			finished = "Uhuuuuuuuuuuuuu! É hora de balançar o esqueleto! Curta o Carnaval na praia! <font size='-2'>(apenas no Transformice, hein?)</font>",
 			carnival = "CARNAVAL!"
 		},
 		es = {
-			credits = "\n\n<p align='center'><font size='11'>Evento por <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, arte asombroso por <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			credits = "\n\n<p align='center'><font size='-1'>Evento por <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, arte asombroso por <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
 			buildTrio = "¡Aaaaaaah!, ¡Una hermosa playa!\n¡Pero oye, espera! Tienes trabajo que hacer.\n\nConsigue estos objetos por el mapa y llévelos a la Tarima Móvil. Tenemos una fiesta esta noche.",
 			decorateTrio = "OwO ¡Esta Tarima Móvil se ve genial! ¡Es hora de decorarlo!",
 			playInstruments = "¡Todo listo para esta noche! ¡¡¡¡Es tiempo de fiesta!!!!\n\n¿Qué tal probar algunos instrumentos típicos del Carnaval brasileño? Sube a la Tarima Móvil y pruébalos.",
-			finished = "¡Yupiiiiiiiiiiiiii! ¡Es hora de cortar una alfombra! ¡Disfruta del Carnaval en la playa! <font size='9'>(Solamente en Transformice, ¿Cierto?)</font>",
+			finished = "¡Yupiiiiiiiiiiiiii! ¡Es hora de cortar una alfombra! ¡Disfruta del Carnaval en la playa! <font size='-2'>(Solamente en Transformice, ¿Cierto?)</font>",
 			carnival = "¡CARNAVAL!"
 		},
 		cn = {
-			credits = "\n\n<p align='center'><font size='11'>活動製作: <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, 驚世藝術繪畫: <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			credits = "\n\n<p align='center'><font size='-1'>活動製作: <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, 驚世藝術繪畫: <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
 			buildTrio = "啊, 是個好美麗的海灘!\n但是, 等等! 你有工作要做。\n\n把散落在地圖上的物品撿起帶到巡遊花車上。我們今天晚上有派對喔。",
 			decorateTrio = "OwO 這輛巡遊花車真好看! 是時候把它裝飾一下!",
 			playInstruments = "一切都為今天晚上預備好了! 現在是派對時間!!!!\n\n要來嘗試一下傳統的巴西狂歡節樂器嗎? 到巡遊花車上試一下吧。",
-			finished = "好耶耶耶耶! 是跳搖擺舞的時間了! 在海灘上盡情享受這個狂歡節吧! <font size='9'>(只有在 Transformice 才行, 對吧?)</font>",
+			finished = "好耶耶耶耶! 是跳搖擺舞的時間了! 在海灘上盡情享受這個狂歡節吧! <font size='-2'>(只有在 Transformice 才行, 對吧?)</font>",
 			carnival = "狂歡節!"
 		},
 		it = {
-			credits = "\n\n<p align='center'><font size='11'>Evento creato da <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, incredibili disegni di <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			credits = "\n\n<p align='center'><font size='-1'>Evento creato da <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, incredibili disegni di <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
 			buildTrio = "Aaaaaaah, una bellissima spiaggia!\nMa hey, aspetta! C'è del lavoro da fare.\n\nRaccogli gli oggetti in giro per la mappa e portali al Trio Elettrico. Abbiamo un festa stanotte.",
 			decorateTrio = "OwO Questo Trio Elettrico sembra così carino! È tempo di decorarlo!",
 			playInstruments = "È finalmente tutto pronto per stasera! È tempo di festeggiare!!!!\n\nChe ne pensi di qualche strumento musicale tipico del Carnevale Brasiliano? Sali sul Trio Elettrico e prova a suonarli.",
-			finished = "Evvivaaaaaa! È tempo di festeggiare! Divertiti al Carnevale in spiaggia! <font size='9'>(solo su Transformice però, vero?)</font>",
+			finished = "Evvivaaaaaa! È tempo di festeggiare! Divertiti al Carnevale in spiaggia! <font size='-2'>(solo su Transformice però, vero?)</font>",
 			carnival = "CARNEVALE!"
 		},
 		hu = {
-			credits = "\n\n<p align='center'><font size='11'>Az Eventet <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font> készítette, a gyönyörű rajzot pedig <FC>Furianera</FC><font size='8'><G>#0506</G></font> készítette.</font></p>",
+			credits = "\n\n<p align='center'><font size='-1'>Az Eventet <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font> készítette, a gyönyörű rajzot pedig <FC>Furianera</FC><font size='-3'><G>#0506</G></font> készítette.</font></p>",
 			buildTrio = "Aaaaaaah, milyen gyönyörű strand!\nDe hé, várjunk csak! Még van egy kis munkád.\n\nGyűjtsd össze a különböző tárgyakat a pályán és hozd vissza őket az Electric Triohoz. Buli lesz ma este.",
 			decorateTrio = "OwO Ez az Electric Trio nagyon jól néz ki! Ideje feldíszíteni!",
 			playInstruments = "Minden készen áll ma estére! Itt a buli ideje!!!!\n\nMit szólnál ahhoz, ha kipróbálnánk néhány tipikus brazil hangszereket? Menj fel az Electric Triora és próbáld ki őket.",
-			finished = "Yupiiiiiiiiiiiiii! Ideje táncolni! Élvezd a karnevált a strandon! <font size='9'>(de csak a Transformice-szon, ugye?)</font>",
+			finished = "Yupiiiiiiiiiiiiii! Ideje táncolni! Élvezd a karnevált a strandon! <font size='-2'>(de csak a Transformice-szon, ugye?)</font>",
 			carnival = "KARNEVÁL!"
 		},
 		tr = {
-			credits = "\n\n<p align='center'><font size='11'>Etkinliği yapan: <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, inanılmaz resimleri yapan: <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
+			credits = "\n\n<p align='center'><font size='-1'>Etkinliği yapan: <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, inanılmaz resimleri yapan: <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
 			buildTrio = "Aaaaaaah, güzel bir plaj!\nAma hey, bekle! Yapacak işin var!\n\nHaritanın etrafındaki objeleri topla ve Electric Trio'ya götür. Bu gece partimiz var.",
 			decorateTrio = "OwO Bu Electric Trio çok güzel görünüyor! Dekore etme zamanı!",
 			playInstruments = "Bu gece için her şey hazır! Parti zamanı!!!!\n\nTipik Brezilya Karnavalı enstrümanlarını denemeye ne dersiniz? Electrio Trio'ya gidin ve onları bir deneyin.",
-			finished = "Yupiiiiiiiiiiiiii! Şimdi dans etme zamanı! Plajda Karnavalın tadını çıkarın! <font size='9'>(sadece Transformice'de, değil mi?)</font>",
+			finished = "Yupiiiiiiiiiiiiii! Şimdi dans etme zamanı! Plajda Karnavalın tadını çıkarın! <font size='-2'>(sadece Transformice'de, değil mi?)</font>",
 			carnival = "KARNAVAL!"
 		},
 		fr = {
-			credits = "\n\n<p align='center'><font size='11'>Event par <FC>Bolodefchoco</FC><font size='8'><G>#0000</G></font>, incroyable art par <FC>Furianera</FC><font size='8'><G>#0506</G></font>.</font></p>",
-			buildTrio = "Woaaaah, une super plage !\nMais... attend ! T'as du travail à faire.\n\nRécupère ces objets sur toute la carte et rapporte-les au Trio Électrique <font size='9'>(char du Carnaval)</font>. Nous avons une fête prévue ce soir.",
+			credits = "\n\n<p align='center'><font size='-1'>Event par <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, incroyable art par <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
+			buildTrio = "Woaaaah, une super plage !\nMais... attend ! T'as du travail à faire.\n\nRécupère ces objets sur toute la carte et rapporte-les au Trio Électrique <font size='-2'>(char du Carnaval)</font>. Nous avons une fête prévue ce soir.",
 			decorateTrio = "OwO Ce Trio Électrique a l'air très bien ! C'est l'heure de le décorer !",
 			playInstruments = "Tout est prêt pour cette nuit ! Place à la fête !!!!\n\nPourquoi ne pas essayer quelques instruments de musique brésiliens ? Va sur le Trio Electrique et tente ta chance.",
-			finished = "Youpiiiiiiiiiiiiii! C'est l'heure de danser ! Profite du Carnaval sur la plage !<font size='9'>(sur Transformice seulement, ok?)</font>",
+			finished = "Youpiiiiiiiiiiiiii! C'est l'heure de danser ! Profite du Carnaval sur la plage !<font size='-2'>(sur Transformice seulement, ok?)</font>",
 			carnival = "CARNAVAL!"
 		},
 	}
