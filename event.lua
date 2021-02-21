@@ -101,6 +101,14 @@ do
 			finished = "Youpiiiiiiiiiiiiii! C'est l'heure de danser ! Profite du Carnaval sur la plage !<font size='-2'>(sur Transformice seulement, ok?)</font>",
 			carnival = "CARNAVAL!"
 		},
+		bg = {
+			credits = "\n\n<p align='center'><font size='-1'>Event by <FC>Bolodefchoco</FC><font size='-3'><G>#0015</G></font>, amazing art by <FC>Furianera</FC><font size='-3'><G>#0506</G></font>.</font></p>",
+			buildTrio = "Ахххххх, какъв хубав плаж!!\nНо хей, почакай! Имаш работа за вършене.\n\nОлови тези предмети по картата и ги донеси до Трио Електрик <font size='-2'>(truck/container)</font>. Ще имаме купон тази вечер.",
+			decorateTrio = "OwO Това Трио Електрик изглежда толкова добре! Време е за декорация!",
+			playInstruments = "Всичко е готово за тази вечер! Време е за купон!!!!\n\n Какво ще кажеш да пробваме няколко типични Бразилски Карнавални инструменти? Отиди на Трио Електрик и ги изпробвай.",
+			finished = "Юпииииииии! Време е за танци! Наслади се на карнавала на плажа! <font size='-2'>(само в Transformice, нали?)</font>",
+			carnival = "КАРНАВАЛ!"
+		},
 	}
 	translation = translations[tfm.get.room.community] or translations.en
 end
